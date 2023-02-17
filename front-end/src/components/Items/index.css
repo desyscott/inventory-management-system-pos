@@ -1,0 +1,135 @@
+.table {
+    width: 100%;
+    font-family: Inter, sans-serif;
+  }
+  th {
+    text-align:left;
+    padding:.6rem;
+    font-size:1.4rem;
+    color: #000000c4;
+    
+  }
+  tbody>tr:nth-child(odd) {
+    background-color: #d9d5db9d;
+  }
+  
+  tbody > tr:nth-child(even):hover {
+    box-shadow:0 0.15rem 1.75rem 0 rgba(32, 32, 32, 0.15) !important;
+  }
+  
+  tbody > tr:nth-child(odd):hover {
+ 
+    box-shadow:0 0.15rem 1.75rem 0 rgb(58 59 69 / 15%) !important;
+  
+  }
+  
+  td{
+    font-family: Inter, sans-serif;
+    color: #000000dc;
+    padding:.4rem;
+  }
+  
+  .action-btn{
+    font-family: Inter, sans-serif;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    padding:.9rem;
+    font-size:13px;
+    white-space: nowrap;
+  }
+  .action-btn.danger{
+    font-family: Inter, sans-serif;
+    color:#a02020;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    border: 1px solid #a02020;
+    white-space: nowrap;
+  }
+  .action-btn.danger:hover{
+    background-color: #a02020;
+    color: #fff;
+  }
+  
+  
+  .action-btn.primary{
+    font-family: Inter, sans-serif;
+    color: rgb(6, 117, 206);
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    border: 1px solid rgb(6, 117, 206);
+    white-space: nowrap;
+    margin-right:1rem;
+  }
+  
+  .action-btn.primary:hover{
+    background-color:rgb(6, 117, 206);
+    color: #fff;
+  }
+  .action-btn.addBtn{
+    font-family: Inter, sans-serif;
+    color: #fff;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    border-radius: 3px;
+    background-color:rgb(6, 117, 206);
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    border: 1px solid rgb(6, 117, 206);
+    white-space: nowrap;
+    margin-right:1rem;
+  }
+  
+  .action-btn.addBtn:hover{
+    background-color: transparent;
+    color: rgb(6, 117, 206);
+  }
+  
+.search_bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5rem;
+  margin-left: 1rem;
+  margin-bottom:2rem;
+  z-index: 1;
+}
+.search_bar input{
+width: 25rem;
+height: 2.5rem;
+box-shadow:0 0.15rem 1.75rem 0 rgb(58 59 69 / 15%) !important;
+}
+
+.search-icon{
+  cursor: pointer;
+  background:transparent;
+  padding:1px;
+  font-size:3rem;
+  height:calc(30px- 5px);
+  width:calc(50px);
+ color:rgba(96,96,96);
+ position:absolute;
+}

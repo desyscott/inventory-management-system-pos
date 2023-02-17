@@ -1,0 +1,86 @@
+
+  .active-modal {
+    overflow-y: hidden;
+}
+  
+  .modal-background, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+  
+  .modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    width: 600px;
+    min-width: 300px;
+    
+  }
+  .form{
+    max-width:40rem;
+    margin:auto auto;
+}
+  
+.form > div{
+  display: flex;
+  flex-direction:column;
+  margin:1rem;
+}
+
+.form label{
+  margin:1rem 0;
+}
+.form input{
+  padding:.8rem;
+  border:0.1rem #c0c0c0 solid;
+}
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+
+  
+
+  
+  .modal-container .footer button {
+    width: 90px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+  
+  
+ 

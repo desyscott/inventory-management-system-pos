@@ -1,0 +1,79 @@
+.calculated-sale{
+    padding:1rem;
+}
+
+.saleForm{
+    max-width:100%;
+    margin-bottom:1rem;
+    border:.1rem #c0c0c0 solid;
+    border-radius:.5rem;
+    display:grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-areas:"header header" ;
+     padding: .5rem;
+
+}
+
+.desc{
+   grid-area: header; 
+}
+.desc input{
+ width:95%;
+}
+
+.form_div{
+    display: flex;
+    flex-direction:row;
+    margin:.5rem;
+}
+
+.sub_input input{
+    width:63%; 
+}
+.sub_input select{
+    padding:6px;
+    font: 14px;
+    width:66%; 
+}
+
+
+.form_div label{
+    width:200px;
+    display: inline-block;
+font-weight: 700;
+}
+
+input{
+    padding:.5rem;
+    border:0.1rem #c0c0c0 solid;
+}
+/* .formSubmit-btn{
+    display: flex;
+    justify-content: flex-end;
+
+} */
+
+.saleForm > div:nth-of-type(3){
+margin-left: 4rem;
+}
+.table-wrap{
+    border:.1rem #c0c0c0 solid;
+    border-radius:.5rem;
+}
+
+
+.Grand-total{
+    display: flex;
+    justify-content: flex-end
+}
+.Grand-total h3{
+color:#302f2f ;
+}
+
+
+.total-input{
+    color:#5c5c5c;
+    border:0.1rem #c0c0c0 solid;
+    padding: .4rem 4rem;
+    text-align:left;
+}

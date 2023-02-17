@@ -1,0 +1,43 @@
+
+.row{
+    display: grid;
+    grid-template-columns: 60rem 1fr;
+    grid-template-rows:1fr;
+    height: 100vh;
+    
+}
+
+.col-1{
+    flex:1 1 40rem;
+    border: .1px solid #7a8189
+   
+}
+
+.col-2{
+    flex:2 1 60rem;
+ 
+}
+ .col-1-nav{
+    display: flex;
+    background-color: #505b67;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    padding:0.5rem;
+    outline: none;
+    height:50px;
+}
+.col-1-nav >h3{
+    text-transform: capitalize;
+}
+.empty-span{
+    padding:1.5rem
+}
+.table-active{
+    position:relative;
+    background-color: rgb(136, 184, 223);
+}
+.table-active::before{
+    content:"";
+    position:absolute;
+}
